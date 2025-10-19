@@ -1,0 +1,57 @@
+Bài 1 : 
+    - Chức năng : giao dịch bán hàng thuộc loại hệ thống thông tin TPS (Hệ thống xử lí giao dịch)
+    - Chức năng : phân tích xu hướng kinh doanh thuộc loại hệ thống thông tin MIS (Hệ thống thông tin quản lí)
+    - Chức năng : Bảng tổng quan hiệu suất hàng tháng dành cho CEO thuộc loại hệ thống thông tin  MIS (Hệ thống thông tin quản lí)  
+
+Bài 2 : 
+    - Dự án A phù hợp với mô hình Waterfall vì yêu cầu rõ ràng  
+    - Dự án B phù hợp với mô hình  Agile vì yêu cầu linh hoạt 
+    - Dự án C phù hợp với mô hình Spiral vì yêu cầu bảo mật và độ phức tạp cao
+
+Bài 3 : 
+    - Con người : Bao gồm tất cả những người tương tác với hệ thống: người sử dụng, quản trị viên, nhà phân tích, lập trình viên và lãnh đạo ra quyết định.
+    - Dữ liệu : Là nguồn sống của hệ thống thông tin. Dữ liệu có thể ở dạng số, văn bản, hình ảnh, âm thanh hoặc video, được lưu trữ trong cơ sở dữ liệu và phân tích để hỗ trợ ra quyết định.
+    - Quy trình : Là chuỗi các bước logic mô tả cách thức dữ liệu được thu thập, xử lý, truyền đạt và lưu trữ.
+    - Phần mềm : Là hạ tầng vật lý giúp hệ thống hoạt động: máy chủ, máy tính, thiết bị đầu cuối, cảm biến, thiết bị mạng, ....
+    - Phần cứng : Là tập hợp các chương trình, ứng dụng và hệ điều hành điều khiển phần cứng và xử lý dữ liệu.
+
+Bài 4 : 
+    - Planning : xác định mục tiêu, yêu cầu, nguồn lực, rủi ro và thời gian cho dự án
+    - Analysis : Xác định mục tiêu, phạm vi, yêu cầu và ràng buộc của hệ thống cần phát triển.
+    - Design : mô tả cấu trúc, dữ liệu, giao diện và quy trình xử lý của hệ thống. 
+    - Implementation : Chuyển bản thiết kế thành mã nguồn (source code) bằng ngôn ngữ lập trình phù hợp. 
+    - Testing : Đảm bảo phần mềm đáp ứng đúng yêu cầu, không lỗi, hoạt động ổn định trong các môi trường khác nhau.
+    - Deployment & Maintenance : Đưa và thực tế để người dùng sử dụng và duy trì hiệu suất , bảo mật và tính ổn định 
+
+Bài 5 : 
+    - Planning : Xác định mục tiêu công việc , những yêu cầu của công việc , thời gian làm dự án và những người làm dự án
+    - Requirement Analysis : xác định những đối tượng người dùng ,khảo sát nhu cầu thị trường , chức năng , kĩ thuật chi phí và thời gian  
+    - System Design : chuyển yêu cầu thành những thiết kế kỹ thuật , mô tả những cấu trúc , dữ liệu và giao diện cho hệ thống
+
+Bài 6 : 
+    - Tình huống A :
+    - Tình huống B :
+    - Tình huống C :
+    - Tình huống D :
+    - Tình huống E : 
+
+Bài 7 :
+    - Planning: Xác định mục tiêu, phạm vi và yêu cầu tuân thủ.
+    - Analysis: Thu thập yêu cầu từ người dân và trung tâm y tế.
+    - Design: Thiết kế cơ sở dữ liệu và giao diện quản trị.
+    - Implementation: Phát triển chức năng đăng ký, xếp lịch và thông báo.
+    - Testing: Kiểm thử chức năng, bảo mật và tải.
+    - Deployment & Maintenance: Triển khai, theo dõi và cập nhật hệ thống.
+
+Bài 8 :
+    - Tác nhân chính: Học viên, Giảng viên, Admin.
+    - Chức năng chính: Đăng ký khóa, tham gia học, quản lý bài, chấm điểm, báo cáo.
+    - Phân loại hệ thống thông tin: TPS cho giao dịch, MIS cho báo cáo, DSS cho phân tích, EIS cho dashboard lãnh đạo.
+    - Mô hình phát triển: Agile vì cần phát hành nhanh và thay đổi linh hoạt.
+    - Sơ đồ UML: Use Case Diagram, Class Diagram, Sequence Diagram.
+
+Bài 9 :
+    - Tác nhân và chức năng: Khách hàng tạo và theo dõi đơn. Nhân viên vận chuyển cập nhật trạng thái. Nhân viên kho xử lý hàng. Quản lý theo dõi hiệu suất. CEO xem dashboard.
+    - Phân loại chức năng: Tạo đơn và cập nhật trạng thái -> TPS. Báo cáo vận hành -> MIS. Tối ưu tuyến và phân tích -> DSS. Dashboard CEO -> EIS.
+    - Mô hình phát triển: Agile kết hợp DevOps để phát hành nhanh và đảm bảo vận hành liên tục.
+    - Sơ đồ UML: Use Case Diagram mô tả chức năng, Class Diagram mô tả dữ liệu, Sequence Diagram mô tả luồng xử lý, Deployment Diagram mô tả triển khai hạ tầng
