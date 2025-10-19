@@ -51,7 +51,46 @@ Bài 8 :
     - Sơ đồ UML: Use Case Diagram, Class Diagram, Sequence Diagram.
 
 Bài 9 :
-    - Tác nhân và chức năng: Khách hàng tạo và theo dõi đơn. Nhân viên vận chuyển cập nhật trạng thái. Nhân viên kho xử lý hàng. Quản lý theo dõi hiệu suất. CEO xem dashboard.
-    - Phân loại chức năng: Tạo đơn và cập nhật trạng thái -> TPS. Báo cáo vận hành -> MIS. Tối ưu tuyến và phân tích -> DSS. Dashboard CEO -> EIS.
-    - Mô hình phát triển: Agile kết hợp DevOps để phát hành nhanh và đảm bảo vận hành liên tục.
-    - Sơ đồ UML: Use Case Diagram mô tả chức năng, Class Diagram mô tả dữ liệu, Sequence Diagram mô tả luồng xử lý, Deployment Diagram mô tả triển khai hạ tầng
+    1. Các yếu tố môi trường hệ thống
+    - Môi trường tổ chức: Hệ thống phục vụ phòng nhân sự (HR) trong công ty để quản lý toàn bộ quy trình tuyển dụng — từ đăng tin, tiếp nhận hồ sơ, phỏng vấn đến ký hợp đồng.
+    - Môi trường kỹ thuật:
+        + Nền tảng web (và có thể mở rộng lên mobile).
+        + Sử dụng cơ sở dữ liệu tập trung (MySQL/PostgreSQL).
+        + Triển khai trên hạ tầng cloud hoặc server nội bộ.
+    - Môi trường pháp lý: Tuân thủ quy định bảo mật thông tin cá nhân của ứng viên .
+    - Môi trường kinh tế – xã hội: Gia tăng nhu cầu tuyển dụng và chuyển đổi số khiến hệ thống cần linh hoạt, dễ mở rộng.
+
+    2. Phân tích Stakeholders
+    Nhóm liên quan                    Vai trò / Mục tiêu                                                            
+    
+    Ban Giám đốc                  Quản lý tổng thể, theo dõi tình hình tuyển dụng, hiệu quả nhân sự.                
+    Phòng Nhân sự                 Đăng tin tuyển dụng, quản lý hồ sơ ứng viên, tổ chức phỏng vấn, cập nhật kết quả. 
+    Trưởng bộ phận chuyên môn     Đưa ra yêu cầu tuyển dụng, đánh giá ứng viên.                                     
+    Ứng viên                      Nộp hồ sơ, theo dõi tiến trình ứng tuyển.                                         
+    Quản trị hệ thống             Quản lý người dùng, phân quyền, sao lưu dữ liệu, bảo mật.                         
+
+    3.Các nguồn yêu cầu
+    - Phỏng vấn nhân viên HR, trưởng bộ phận, và IT.
+    - Quan sát thực tế quy trình tuyển dụng hiện tại (đăng tin, lưu hồ sơ, phỏng vấn thủ công).
+    - Phân tích tài liệu hiện có: biểu mẫu tuyển dụng, báo cáo nhân sự.
+    - Khảo sát trực tuyến ứng viên về trải nghiệm ứng tuyển.
+
+    4. Một số yêu cầu chức năng & phi chức năng
+    - Chức năng chính:
+     +Đăng và quản lý tin tuyển dụng.
+     +Tiếp nhận và lưu trữ hồ sơ ứng viên.
+     +Lên lịch và quản lý phỏng vấn.
+     +Đánh giá, chấm điểm và chọn ứng viên.
+     +Thống kê, xuất báo cáo tuyển dụng.
+     +Quản trị người dùng và phân quyền (HR, Trưởng phòng, Admin).
+    - Phi chức năng:
+     +Giao diện thân thiện, dễ sử dụng cho cả HR và ứng viên.
+     +Tốc độ phản hồi < 3 giây.
+     +Bảo mật dữ liệu (mã hóa thông tin ứng viên).
+
+    5. Gợi ý cấu trúc tài liệu mô tả yêu cầu (SRS)
+    - Giới thiệu hệ thống : Mục tiêu, phạm vi, thuật ngữ.
+    - Tổng quan hệ thống : Kiến trúc, quy trình nghiệp vụ tổng thể.
+    - Mô tả chi tiết yêu cầu :Các use case: Quản lý tin tuyển dụng, Quản lý ứng viên, Phỏng vấn,…
+    - Yêu cầu phi chức năng: Bảo mật, hiệu năng, khả năng bảo trì.
+    - Phụ lục : Biểu đồ use case, ERD, mockup giao diện (nếu có).
